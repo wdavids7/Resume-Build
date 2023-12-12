@@ -13,7 +13,7 @@
 
 h1.hero-title {
   color: var(--color-text-primary);
-  font-size: var(--size-h1);
+  font-size: var(--size-3xl);
   letter-spacing: -0.05em;
   line-height: 0.9;
   position: relative;
@@ -40,6 +40,7 @@ p.hero-description {
   font-size: var(--size-xs);
   letter-spacing: -0.3px;
   text-align: center;
+  max-width: 40ch;
 }
 
 /* ------------------- */
@@ -48,6 +49,10 @@ p.hero-description {
 
 /* xs */
 @media (min-width: 475px) {
+  h1.hero-title {
+    font-size: var(--size-h1);
+  }
+
   p.hero-description {
     font-size: var(--size-sm);
   }
@@ -64,6 +69,7 @@ p.hero-description {
 @media (min-width: 768px) {
   p.hero-description {
     font-size: var(--size-body);
+    max-width: 100%;
   }
 }
 

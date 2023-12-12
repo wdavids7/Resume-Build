@@ -16,12 +16,12 @@
 }
 
 .contact-description {
-  font-size: var(--size-xxs);
-  max-width: 60ch;
+  font-size: var(--size-xs);
+  max-width: 40ch;
 }
 
 .contact-btn {
-  font-size: var(--size-xxs);
+  font-size: var(--size-xs);
 }
 
 /* ------------------- */
@@ -34,11 +34,11 @@
   }
 
   .contact-description {
-    font-size: var(--size-xs);
+    font-size: var(--size-sm);
   }
 
   .contact-btn {
-    font-size: var(--size-xs);
+    font-size: var(--size-sm);
   }
 }
 
@@ -49,11 +49,11 @@
   }
 
   .contact-description {
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
   }
 
   .contact-btn {
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
   }
 }
 
@@ -64,7 +64,7 @@
   }
 
   .contact-description {
-    font-size: var(--size-base);
+    font-size: var(--size-lg);
   }
 
   .contact-btn {

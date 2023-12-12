@@ -18,6 +18,8 @@ figure.figure-education-quote {
   font-size: var(--size-xs);
   padding: 1em 0 1em;
   text-align: center;
+  max-width: 40ch;
+  margin: auto;
 }
 
 .timeline-section {
@@ -29,7 +31,7 @@ figure.figure-education-quote {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  max-width: 350px;
+  max-width: 400px;
   position: relative;
 }
 
@@ -37,7 +39,8 @@ figure.figure-education-quote {
   content: "";
   background-color: var(--color-text-tertiary);
   height: 100%;
-  left: 0.438em;
+  /* left: 0.438em; */
+  left: 1em;
   position: absolute;
   width: 0.125em;
 }
@@ -66,7 +69,8 @@ figure.figure-education-quote {
   background-color: var(--color-text-tertiary);
   border-radius: 50%;
   height: 1em;
-  left: 0;
+  /* left: 0; */
+  left: 0.6em;
   position: absolute;
   top: 0.625em;
   width: 1em;
@@ -83,6 +87,7 @@ figure.figure-education-quote {
   border-radius: 5px;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
   padding: var(--size-3xl);
+  margin-right: 1em;
   transition: transform 0.3s;
 }
 
@@ -254,6 +259,14 @@ input[type="radio"] {
 
   .timeline-items {
     max-width: 600px;
+  }
+
+  .timeline-items::before {
+    left: 0.438em;
+  }
+
+  .timeline-dot {
+    left: 0;
   }
 
   .timeline-date {
